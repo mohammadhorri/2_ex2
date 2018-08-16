@@ -1,0 +1,22 @@
+ÈÑäÇãå Çí ˜å ÚÏÏí ÑÇ ÇÒ æÑæÏí ÎæÇäÏå æ ˜Çãá ÈæÏä íÇ äÈæÏä Âä ÑÇ ÈÑÓí ˜äÏ
+      System.out.print("Enter the number:");
+      Scanner number=new Scanner(System.in);
+      int enternumber=number.nextInt();
+      int sum=0;
+      for (int i=1;i<=(enternumber/2)+1;i++)
+       {
+          if(enternumber%i==0)
+           {
+              sum+=i;
+           }
+       }
+      if(sum==enternumber)
+       {
+          System.out.println("The number is complete");
+       }
+      else
+       {
+          System.out.println("The number is not complete");
+          
+       }
+       
